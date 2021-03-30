@@ -2,10 +2,10 @@
 <?php
     
          
-                    $servername = "185.209.179.96";
+                    $servername = "localhost";
                     $database = "db_pesqorganizacao";
-                    $username = "tutiplast";
-                    $password = "tut!l@bs#";
+                    $username = "root";
+                    $password = "";
                     
                  // Create connection
                  $conn = mysqli_connect($servername, $username, $password, $database);
